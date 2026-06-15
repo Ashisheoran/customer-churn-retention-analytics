@@ -33,7 +33,7 @@ with st.container(border=True):
     warehousetohome = c3.number_input("Warehouse To Home", min_value=1, max_value=100, value=1, step=1, key="warehouse_to_home")
     numberofaddress = c3.number_input("Number of Address", min_value=0, max_value=10, value=0, step=1, key="number_of_address")
     couponused = c3.number_input("Coupon Used", min_value=0, max_value=10, value=0, step=1, key="coupon_used")
-    cashbackamount = c3.number_input("Cashbak Amount", min_value=0, max_value=1000, value=0, step=1, key="cashback_amount")
+    cashbackamount = c3.number_input("Cashback Amount", min_value=0, max_value=1000, value=0, step=1, key="cashback_amount")
 
 
 
